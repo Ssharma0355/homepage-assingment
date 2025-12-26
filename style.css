@@ -9,14 +9,16 @@ body { font-family: 'Segoe UI', sans-serif; margin: 0; color: var(--text-dark); 
 /* HERO SECTION */
 .hero-section {
     background: linear-gradient(135deg, #2d135c, #5e2a84);
-    padding: 20px 5%;
+    /* padding: 20px 5%; */
     color: white;
     text-align: center;
     position: relative;
 }
 
-.navbar { display: flex; justify-content: space-between; align-items: center; }
-.btn-register { background: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold; }
+.navbar { display: flex;background: white;  padding: 20px 5%; justify-content: space-between; align-items: center; }
+.button-overall{ display: flex; border: 1px solid #000E38; border-radius: 4px;}
+.button-arrow{ display: flex; align-items: center; justify-content: center; text-align: center ;cursor: pointer;background: #3F186A; width: 60px; height: 60px;}
+.btn-register { background: white; color: #030E3B; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold; }
 
 .hero-content h1 { font-size: 2.5rem; margin-top: 50px; }
 .search-container input {
